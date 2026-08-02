@@ -193,7 +193,7 @@ async function getForecast(lat, lon) {
                 <p>🌡 ${Math.round(day.main.temp)}°C</p>
                 <p>${day.weather[0].main}</p>
             `;
-
+            
             forecastContainer.appendChild(div);
         });
 
