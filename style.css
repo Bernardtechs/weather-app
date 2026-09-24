@@ -28,6 +28,10 @@ body{
 
 h1{
     margin-bottom: 20px;
+    color: chartreuse;
+    text-decoration:none;
+    background: gray;
+    border-radius: 7px;
 }
 
 .search-box{
@@ -96,6 +100,14 @@ background: #2196f3;
 .container:hover{
     transform: scale(1.02);
 }
+footer
+{
+    background-color: darkmagenta;
+    margin-top: 25px;
+    border-radius: 8px;
+    border-left: 5px solid #ec0891;
+    border-right: 5px solid #ec0891;
+}
 .spinner{
 
     width: 50px;
@@ -127,6 +139,7 @@ background: #2196f3;
     font-size: 14px;
 }
 }
+
 @keyframes spin{
 
     0%{
